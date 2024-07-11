@@ -6,13 +6,10 @@
     "osm",
     "openstreetmap"
   ],
-  "version": "0.13.1",
+  "version": "0.14.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marook/osm-read.git"
-  },
-  "bugs": {
-    "url": "https://github.com/marook/osm-read/issues"
+    "url": "https://github.com/brookjordan/osm-read-bj.git"
   },
   "main": "lib/main.js",
   "types": "lib/main.d.ts",

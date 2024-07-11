@@ -3,14 +3,14 @@ declare module "osm-read-bj" {
 
   type NodeId = `-${number}`;
 
-  interface Node<Tags extends object = EmptyObject> {
+  export interface Node<Tags extends object = EmptyObject> {
     id: NodeId;
     lat: number;
     lon: number;
     tags: Tags;
   }
 
-  interface Way<Tags extends object = EmptyObject> {
+  export interface Way<Tags extends object = EmptyObject> {
     id: NodeId;
     nodeRefs: NodeId[];
     tags: Tags;
