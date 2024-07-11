@@ -6,7 +6,7 @@
     "osm",
     "openstreetmap"
   ],
-  "version": "0.8.0",
+  "version": "0.9.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/marook/osm-read.git"
@@ -28,12 +28,10 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
+    "zlibjs": "0.2.0",
     "http-server": "^0.11.1",
     "node-xml": "1.0.2",
-    "protobufjs": "6.8.8"
-  },
-  "optionalDependencies": {
-    "zlibjs": "0.2.0",
+    "protobufjs": "6.8.8",
     "setimmediate": "1.0.2"
   },
   "devDependencies": {
