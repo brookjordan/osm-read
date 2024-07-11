@@ -11,6 +11,8 @@ declare module "osm-read-bj" {
   }
 
   interface Way<Tags extends object = EmptyObject> {
+    id: NodeId;
+    nodeRefs: NodeId[];
     tags: Tags;
   }
 
