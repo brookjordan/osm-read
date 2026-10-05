@@ -26,11 +26,11 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "zlibjs": "0.2.0",
     "http-server": "^0.11.1",
     "node-xml": "1.0.2",
-    "protobufjs": "6.8.8",
-    "setimmediate": "1.0.2"
+    "protobufjs": "^6.8.8",
+    "setimmediate": "1.0.2",
+    "zlibjs": "0.2.0"
   },
   "devDependencies": {
     "browserify": "^16.5.0",
